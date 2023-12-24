@@ -1,9 +1,9 @@
 {
   "name": "neo-ui",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "author": "Nipun Amarasekara",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
     "build": "npm run build:lib && npm run build:style",
     "build:lib": "vue-cli-service build --target lib --name neo-ui src/index.js",

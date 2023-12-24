@@ -1,4 +1,13 @@
-import NeoButton from './components/Neo-Button/Neo-Button.vue';
+import * as components from './components';
 import './assets/tailwind.css'
 
-export default NeoButton
+const componentsList = components?.default;
+const customComponents = {
+    install(Vue) {
+        Object.keys(componentsList).forEach(name => {
+            Vue.component(name, componentsList[name]);
+        })
+    }
+}
+
+export default customComponents;
