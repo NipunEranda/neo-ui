@@ -1,3 +1,3 @@
-import NeoButton from "./Neo-Button/Neo-Button.vue";
+import NeoButton from "./NeoButton/NeoButton.vue";
 
 export default { NeoButton };
