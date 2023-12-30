@@ -1,6 +1,6 @@
 {
-  "name": "neo-ui",
-  "version": "0.1.5",
+  "name": "@nipun_amarasekara/neo-ui",
+  "version": "0.1.11",
   "author": "Nipun Amarasekara",
   "scripts": {
     "start": "vue-cli-service serve",
@@ -15,6 +15,11 @@
     "dist"
   ],
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.5",
     "autoprefixer": "^10",
     "postcss": "^8",
     "postcss-cli": "^11.0.0",
@@ -27,12 +32,12 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-cli-plugin-tailwind": "~3.0.0",
-    "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
-    "tailwindcss": "^3.4.0"
+    "tailwindcss": "^3.4.0",
+    "vue-cli-plugin-tailwind": "~3.0.0"
   },
   "eslintConfig": {
     "root": true,
